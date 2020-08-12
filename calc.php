@@ -1,4 +1,5 @@
 <?php
+session_start();
 global $title;
 $title = 'PHP Calculator';
 include 'templates/header.php';
