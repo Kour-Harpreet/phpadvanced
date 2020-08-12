@@ -4,6 +4,9 @@
 session_start();
 
 function showCalcHistory () {
+  echo '<pre>';
+  var_dump( $_SESSION );
+  echo '</pre>';
   if ( isset( $_SESSION['calc-history'] ) && !empty( $_SESSION['calc-history'] ) ) {
     ?>
       <ul>
