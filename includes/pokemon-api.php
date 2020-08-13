@@ -12,10 +12,12 @@ function retrievePokemon ( $limit = 100, $offset = 200 ) {
       // Collect the array of results from the response object's "results" property.
       $results = $responseObj->results;
       // var_dump( $results );
+      return $results;
     } else { // Could not convert string to object (json_decode().)
       echo 'Could not interpret API response.';
     }
   } else { // Unable to get a response at all from our API endpoint.
     echo 'Unable to connect / retrieve data from API.';
   }
+  return FALSE;
 }
