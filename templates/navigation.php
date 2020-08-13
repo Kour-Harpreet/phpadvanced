@@ -21,5 +21,10 @@
         PHP API Example
       </a>
     </li>
+    <li>
+      <a href="php-ajax.php.php">
+        PHP (our own!) API?AJAX Example
+      </a>
+    </li>
   </ul>
 </nav>
