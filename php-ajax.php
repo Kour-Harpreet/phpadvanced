@@ -29,3 +29,4 @@ include 'templates/header.php';
   <ul id="results"></ul>
 
 <?php include 'templates/footer.php';
+//  http:localhost/includes/ajax-api.php?search=abc
